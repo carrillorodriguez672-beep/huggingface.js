@@ -130,6 +130,13 @@ export const MODEL_LIBRARIES_UI_ELEMENTS = {
 		filter: false,
 		countDownloads: `path:"llm_config.json"`,
 	},
+	bboxmaskpose: {
+		prettyLabel: "BBoxMaskPose",
+		repoName: "BBoxMaskPose",
+		repoUrl: "https://github.com/MiraPurkrabek/BBoxMaskPose",
+		filter: false,
+		countDownloads: `path_extension:"pth"`,
+	},
 	ben2: {
 		prettyLabel: "BEN2",
 		repoName: "BEN2",
@@ -173,6 +180,13 @@ export const MODEL_LIBRARIES_UI_ELEMENTS = {
 		filter: false,
 		countDownloads: `path:"params.index.json"`,
 	},
+	boltzgen: {
+		prettyLabel: "BoltzGen",
+		repoName: "BoltzGen",
+		repoUrl: "https://github.com/HannesStark/boltzgen",
+		filter: false,
+		countDownloads: `path:"boltzgen1_diverse.ckpt"`,
+	},
 	champ: {
 		prettyLabel: "Champ",
 		repoName: "Champ",
@@ -195,6 +209,19 @@ export const MODEL_LIBRARIES_UI_ELEMENTS = {
 		filter: false,
 		countDownloads: `path:"asset/GPT.pt"`,
 	},
+	"chronos-forecasting": {
+		prettyLabel: "Chronos",
+		repoName: "Chronos",
+		repoUrl: "https://github.com/amazon-science/chronos-forecasting",
+		snippets: snippets.chronos_forecasting,
+	},
+	"cloud-agents": {
+		prettyLabel: "Cloud Agents",
+		repoName: "Cloud Agents",
+		repoUrl: "https://huggingface.co/OpenPeerAI/Cloud-Agents",
+		filter: false,
+		countDownloads: `path:"setup.py"`,
+	},
 	colpali: {
 		prettyLabel: "ColPali",
 		repoName: "ColPali",
@@ -207,13 +234,6 @@ export const MODEL_LIBRARIES_UI_ELEMENTS = {
 		repoName: "COMET",
 		repoUrl: "https://github.com/Unbabel/COMET/",
 		countDownloads: `path:"hparams.yaml"`,
-	},
-	contexttab: {
-		prettyLabel: "ConTextTab",
-		repoName: "ConTextTab",
-		repoUrl: "https://github.com/SAP-samples/contexttab",
-		countDownloads: `path_extension:"pt"`,
-		snippets: snippets.contexttab,
 	},
 	cosmos: {
 		prettyLabel: "Cosmos",
@@ -272,6 +292,13 @@ export const MODEL_LIBRARIES_UI_ELEMENTS = {
 		repoUrl: "https://github.com/nari-labs/dia",
 		snippets: snippets.dia,
 		filter: false,
+	},
+	"diff-interpretation-tuning": {
+		prettyLabel: "Diff Interpretation Tuning",
+		repoName: "Diff Interpretation Tuning",
+		repoUrl: "https://github.com/Aviously/diff-interpretation-tuning",
+		filter: false,
+		countDownloads: `path_extension:"pt"`,
 	},
 	diffree: {
 		prettyLabel: "Diffree",
@@ -372,6 +399,12 @@ export const MODEL_LIBRARIES_UI_ELEMENTS = {
 		snippets: snippets.fastai,
 		filter: true,
 	},
+	fastprint: {
+		prettyLabel: "Fast Print",
+		repoName: "Fast Print",
+		repoUrl: "https://huggingface.co/OpenPeerAI/FastPrint",
+		countDownloads: `path_extension:"cs"`,
+	},
 	fasttext: {
 		prettyLabel: "fastText",
 		repoName: "fastText",
@@ -471,6 +504,18 @@ export const MODEL_LIBRARIES_UI_ELEMENTS = {
 		repoUrl: "https://github.com/Tencent/Hunyuan3D-2",
 		countDownloads: `path_filename:"model_index" OR path_filename:"config"`,
 	},
+	"hunyuanworld-voyager": {
+		prettyLabel: "HunyuanWorld-voyager",
+		repoName: "HunyuanWorld-voyager",
+		repoUrl: "https://github.com/Tencent-Hunyuan/HunyuanWorld-Voyager",
+	},
+	"image-matching-models": {
+		prettyLabel: "Image Matching Models",
+		repoName: "Image Matching Models",
+		repoUrl: "https://github.com/alexstoken/image-matching-models",
+		filter: false,
+		countDownloads: `path_extension:"safetensors"`,
+	},
 	imstoucan: {
 		prettyLabel: "IMS Toucan",
 		repoName: "IMS-Toucan",
@@ -483,6 +528,13 @@ export const MODEL_LIBRARIES_UI_ELEMENTS = {
 		repoUrl: "https://github.com/index-tts/index-tts",
 		snippets: snippets.indextts,
 		filter: false,
+	},
+	infinitetalk: {
+		prettyLabel: "InfiniteTalk",
+		repoName: "InfiniteTalk",
+		repoUrl: "https://github.com/MeiGen-AI/InfiniteTalk",
+		filter: false,
+		countDownloads: `path_extension:"safetensors"`,
 	},
 	"infinite-you": {
 		prettyLabel: "InfiniteYou",
@@ -517,12 +569,26 @@ export const MODEL_LIBRARIES_UI_ELEMENTS = {
 		snippets: snippets.keras_hub,
 		filter: true,
 	},
+	kernels: {
+		prettyLabel: "Kernels",
+		repoName: "Kernels",
+		repoUrl: "https://github.com/huggingface/kernels",
+		docsUrl: "https://huggingface.co/docs/kernels",
+		snippets: snippets.kernels,
+		countDownloads: `path_filename:"_ops" AND path_extension:"py"`,
+	},
 	"kimi-audio": {
 		prettyLabel: "KimiAudio",
 		repoName: "KimiAudio",
 		repoUrl: "https://github.com/MoonshotAI/Kimi-Audio",
 		snippets: snippets.kimi_audio,
 		filter: false,
+	},
+	kittentts: {
+		prettyLabel: "KittenTTS",
+		repoName: "KittenTTS",
+		repoUrl: "https://github.com/KittenML/KittenTTS",
+		snippets: snippets.kittentts,
 	},
 	kronos: {
 		prettyLabel: "KRONOS",
@@ -542,12 +608,19 @@ export const MODEL_LIBRARIES_UI_ELEMENTS = {
 		repoUrl: "https://github.com/webis-de/lightning-ir",
 		snippets: snippets.lightning_ir,
 	},
+	litert: {
+		prettyLabel: "LiteRT",
+		repoName: "LiteRT",
+		repoUrl: "https://github.com/google-ai-edge/LiteRT",
+		filter: false,
+		countDownloads: `path_extension:"tflite"`,
+	},
 	"litert-lm": {
 		prettyLabel: "LiteRT-LM",
 		repoName: "LiteRT-LM",
 		repoUrl: "https://github.com/google-ai-edge/LiteRT-LM",
 		filter: false,
-		countDownloads: `path_extension:"litertlm"`,
+		countDownloads: `path_extension:"litertlm" OR path_extension:"task"`,
 	},
 	lerobot: {
 		prettyLabel: "LeRobot",
@@ -556,6 +629,13 @@ export const MODEL_LIBRARIES_UI_ELEMENTS = {
 		docsUrl: "https://huggingface.co/docs/lerobot",
 		filter: false,
 		snippets: snippets.lerobot,
+	},
+	lightglue: {
+		prettyLabel: "LightGlue",
+		repoName: "LightGlue",
+		repoUrl: "https://github.com/cvg/LightGlue",
+		filter: false,
+		countDownloads: `path_extension:"pth" OR path:"config.json"`,
 	},
 	liveportrait: {
 		prettyLabel: "LivePortrait",
@@ -722,6 +802,14 @@ export const MODEL_LIBRARIES_UI_ELEMENTS = {
 			OR path:"open_clip_pytorch_model.bin"
 			OR path:"pytorch_model.bin"`,
 	},
+	openpeerllm: {
+		prettyLabel: "OpenPeerLLM",
+		repoName: "OpenPeerLLM",
+		repoUrl: "https://huggingface.co/openpeerai/openpeerllm",
+		docsUrl: "https://huggingface.co/OpenPeerAI/OpenPeerLLM/blob/main/README.md",
+		countDownloads: `path:".meta-huggingface.json"`,
+		filter: false,
+	},
 	"open-sora": {
 		prettyLabel: "Open-Sora",
 		repoName: "Open-Sora",
@@ -749,8 +837,10 @@ export const MODEL_LIBRARIES_UI_ELEMENTS = {
 		prettyLabel: "PaddleOCR",
 		repoName: "PaddleOCR",
 		repoUrl: "https://github.com/PaddlePaddle/PaddleOCR",
+		docsUrl: "https://www.paddleocr.ai/",
 		snippets: snippets.paddleocr,
 		filter: true,
+		countDownloads: `path_extension:"safetensors" OR path:"inference.pdiparams"`,
 	},
 	peft: {
 		prettyLabel: "PEFT",
@@ -775,6 +865,13 @@ export const MODEL_LIBRARIES_UI_ELEMENTS = {
 		snippets: snippets.phantom_wan,
 		filter: false,
 		countDownloads: `path_extension:"pth"`,
+	},
+	"pruna-ai": {
+		prettyLabel: "Pruna AI",
+		repoName: "Pruna AI",
+		repoUrl: "https://github.com/PrunaAI/pruna",
+		snippets: snippets.pruna,
+		docsUrl: "https://docs.pruna.ai",
 	},
 	pxia: {
 		prettyLabel: "pxia",
@@ -803,6 +900,13 @@ export const MODEL_LIBRARIES_UI_ELEMENTS = {
 		repoUrl: "https://github.com/clementchadebec/benchmark_VAE",
 		snippets: snippets.pythae,
 		filter: false,
+	},
+	quantumpeer: {
+		prettyLabel: "QuantumPeer",
+		repoName: "QuantumPeer",
+		repoUrl: "https://github.com/OpenPeer-AI/QuantumPeer",
+		filter: false,
+		countDownloads: `path_extension:"setup.py"`,
 	},
 	recurrentgemma: {
 		prettyLabel: "RecurrentGemma",
@@ -839,6 +943,12 @@ export const MODEL_LIBRARIES_UI_ELEMENTS = {
 		repoUrl: "https://github.com/revdotcom/reverb",
 		filter: false,
 	},
+	rkllm: {
+		prettyLabel: "RKLLM",
+		repoName: "RKLLM",
+		repoUrl: "https://github.com/airockchip/rknn-llm",
+		countDownloads: `path_extension:"rkllm"`,
+	},
 	saelens: {
 		prettyLabel: "SAELens",
 		repoName: "SAELens",
@@ -863,6 +973,13 @@ export const MODEL_LIBRARIES_UI_ELEMENTS = {
 		filter: true,
 		countDownloads: `path:"cfg.json"`,
 	},
+	"sap-rpt-1-oss": {
+		prettyLabel: "sap-rpt-1-oss",
+		repoName: "sap-rpt-1-oss",
+		repoUrl: "https://github.com/SAP-samples/sap-rpt-1-oss",
+		countDownloads: `path_extension:"pt"`,
+		snippets: snippets.sap_rpt_one_oss,
+	},
 	sapiens: {
 		prettyLabel: "sapiens",
 		repoName: "sapiens",
@@ -876,6 +993,13 @@ export const MODEL_LIBRARIES_UI_ELEMENTS = {
 		repoUrl: "https://github.com/ByteDance-Seed/SeedVR",
 		filter: false,
 		countDownloads: `path_extension:"pth"`,
+	},
+	"self-forcing": {
+		prettyLabel: "SelfForcing",
+		repoName: "SelfForcing",
+		repoUrl: "https://github.com/guandeh17/Self-Forcing",
+		filter: false,
+		countDownloads: `path_extension:"pt"`,
 	},
 	"sentence-transformers": {
 		prettyLabel: "sentence-transformers",
@@ -1030,6 +1154,12 @@ export const MODEL_LIBRARIES_UI_ELEMENTS = {
 		repoUrl: "https://github.com/TensorSpeech/TensorFlowTTS",
 		snippets: snippets.tensorflowtts,
 	},
+	tensorrt: {
+		prettyLabel: "TensorRT",
+		repoName: "TensorRT",
+		repoUrl: "https://github.com/NVIDIA/TensorRT",
+		countDownloads: `path_extension:"onnx"`,
+	},
 	tabpfn: {
 		prettyLabel: "TabPFN",
 		repoName: "TabPFN",
@@ -1041,7 +1171,7 @@ export const MODEL_LIBRARIES_UI_ELEMENTS = {
 		repoUrl: "https://github.com/IBM/terratorch",
 		docsUrl: "https://ibm.github.io/terratorch/",
 		filter: false,
-		countDownloads: `path_extension:"pt"`,
+		countDownloads: `path_extension:"pt" OR path_extension:"ckpt"`,
 		snippets: snippets.terratorch,
 	},
 	"tic-clip": {
@@ -1156,6 +1286,13 @@ export const MODEL_LIBRARIES_UI_ELEMENTS = {
 		countDownloads: `path_extension:"pkl"`,
 		snippets: snippets.vfimamba,
 	},
+	lvface: {
+		prettyLabel: "LVFace",
+		repoName: "LVFace",
+		repoUrl: "https://github.com/bytedance/LVFace",
+		countDownloads: `path_extension:"pt" OR path_extension:"onnx"`,
+		snippets: snippets.lvface,
+	},
 	voicecraft: {
 		prettyLabel: "VoiceCraft",
 		repoName: "VoiceCraft",
@@ -1163,12 +1300,26 @@ export const MODEL_LIBRARIES_UI_ELEMENTS = {
 		docsUrl: "https://github.com/jasonppy/VoiceCraft",
 		snippets: snippets.voicecraft,
 	},
+	voxcpm: {
+		prettyLabel: "VoxCPM",
+		repoName: "VoxCPM",
+		repoUrl: "https://github.com/OpenBMB/VoxCPM",
+		snippets: snippets.voxcpm,
+		filter: false,
+	},
 	vui: {
 		prettyLabel: "Vui",
 		repoName: "Vui",
 		repoUrl: "https://github.com/vui-ai/vui",
 		countDownloads: `path_extension:"pt"`,
 		snippets: snippets.vui,
+	},
+	vibevoice: {
+		prettyLabel: "VibeVoice",
+		repoName: "VibeVoice",
+		repoUrl: "https://github.com/microsoft/VibeVoice",
+		snippets: snippets.vibevoice,
+		filter: false,
 	},
 	"wan2.2": {
 		prettyLabel: "Wan2.2",
